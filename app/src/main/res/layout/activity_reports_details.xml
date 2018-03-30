@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop = "true"
+    android:layout_alignParentRight = "true"
+    android:layout_alignParentLeft = "true"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <ViewFlipper
+        android:id="@+id/about_us_image"
+        android:background="@drawable/gabbarlogo"
+        android:layout_width="match_parent"
+        android:layout_height="200.0dip"
+        android:scaleType="fitXY"
+        android:autoStart="true"
+        android:flipInterval="2000" >
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/gabbarlogo"-->
+            <!--android:scaleType="fitXY"/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/camera_img"-->
+            <!--android:scaleType="fitXY"/>-->
+
+
+    </ViewFlipper>
+
+
+
+
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/about_us_image"-->
+        <!--android:background="@drawable/gabbarlogo"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="200.0dip"-->
+        <!--android:scaleType="fitXY"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/incidentnumtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N.D.Microsystems"
+            android:textColor="@color/grey"
+            android:textSize="17sp"
+            android:layout_weight="1"/>
+
+
+
+
+        <TextView
+            android:id="@+id/datetimetextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aug 21,2016"
+            android:textColor="@color/grey"
+            android:layout_gravity="right"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView
+        android:padding="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/descriptiontextview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20.0dip"
+            android:textColor="@color/white"
+            android:text="abc"
+            />
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:background="@drawable/side_nav_bar"
+    tools:context="gabbarreport.ndm.com.gabbarreporting.HomeActivity">
+
+    <LinearLayout
+        android:id="@+id/loclinearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:id="@+id/citytitletextview"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:textSize="20dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@android:color/black"
+            android:text="Gurgaon"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10sp"
+            android:layout_weight="0.9"
+            />
+
+
+        <ImageView
+
+            android:id="@+id/imageViewapprove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow_drop"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        android:id="@+id/linearlayout"
+        >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:text="Citizen"
+        android:onClick="citizen"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/side_nav_bar"
+        android:drawableLeft="@drawable/citizen_icon"
+        android:paddingRight="40sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Reporter"
+        android:onClick="reporter"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:background="@drawable/side_nav_bar"
+        android:layout_marginTop="10sp"
+        android:drawableLeft="@drawable/reporter_icon"
+        android:paddingRight="40sp"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Report"
+            android:background="@drawable/side_nav_bar"
+            android:onClick="viewReport"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:layout_marginTop="10sp"
+            android:drawableLeft="@drawable/my_report_icon"
+            android:paddingRight="40sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/forAddwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+
+
+        />
+
+</RelativeLayout>

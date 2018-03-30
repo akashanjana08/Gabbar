@@ -1,0 +1,197 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.ndm.salestrack.meeting.StartAppointmentActivity"
+    android:fillViewport="false"
+    android:background="@color/white"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <!--android:background="@color/white"-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical"
+            android:id="@+id/llgeneral">
+
+
+
+
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                >
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Incident No:"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/dark"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    />
+
+                <TextView
+                    android:id="@+id/incidentnumtextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N.D.Microsystems"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:textColor="@color/grey"
+                    android:textSize="17sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                >
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date Time"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/dark"
+                    android:textSize="15sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/datetimetextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aug 21,2016"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:textColor="@color/grey"
+                    android:textSize="17sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/dark"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/catagorytextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Corruption"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:textColor="@color/grey"
+                    android:textSize="17sp" />
+
+
+
+            </LinearLayout>
+
+
+            <View
+
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/dark"
+                android:layout_marginTop="10dp"
+                />
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:paddingLeft="18dp"
+                >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/dark"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:id="@+id/descriptiontextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Corruption"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:textColor="@color/grey"
+                    android:textSize="17sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/additional_linear_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="18sp"
+                android:layout_marginTop="0sp"
+                >
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

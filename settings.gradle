@@ -1,0 +1,1 @@
+include ':app', ':circleimageview', ':picasso-2.5.2', ':httpmime-4.3', ':httpclient-4.2.3', ':apache-httpcomponents-httpcore'

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ndmsalessoft.AddCustomerForm1Activity" >
+
+    <item android:id="@+id/approve" android:title="Approve"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:actionLayout="@layout/actionbar_textview"/>
+
+    <item android:id="@+id/reject" android:title="Reject"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:actionLayout="@layout/actionbar_textview"/>
+
+
+
+
+
+</menu>
